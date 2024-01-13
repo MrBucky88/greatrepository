@@ -80,7 +80,7 @@ async def hello(ctx):
 
 @bot.command()
 async def help(ctx):
-    await ctx.send(f'Lista komend! \n ')
+    await ctx.send(f'Lista komend! \n $ekologia - wyjaśnia pojęcie \n jakbyceko - pomysły na bycie eko \n $ecoart - pokazuje przykłady bycia eko ')
 
 bot.run("MTE3NzkyMjM3NzU1Mjc2NDk2OA.Gv9dQG.26l80eSznCIpYEeDO6wiDy5IstBk0A4yPNeDyo")
 
